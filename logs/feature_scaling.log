@@ -1,0 +1,33 @@
+2026-05-23 09:30:58,249 - INFO - Training data independent size : (8276, 29)
+2026-05-23 09:30:58,249 - INFO - Training data depdepent size : (8276,)
+2026-05-23 09:30:58,249 - INFO - Testing data independent size : (1409, 29)
+2026-05-23 09:30:58,249 - INFO - Testing data dependent size : (1409,)
+2026-05-23 09:30:58,269 - INFO - before :    MonthlyCharges_qt  TotalChargesreplaced_qt  tenure_trim  ...  PaymentMethod_Electronic check  PaymentMethod_Mailed check  Contract_odinal
+0          -0.147316                -0.040869     6.721004  ...                             0.0                         1.0              1.0
+
+[1 rows x 29 columns]
+2026-05-23 09:30:58,280 - INFO - after : [[-0.25068796  0.06833713 -0.0296138  ... -0.86757228  2.00766834
+   0.63727632]
+ [ 0.94943835  1.12278244  1.07044507 ... -0.86757228 -0.51519834
+   1.94773393]
+ [-1.10832979 -1.88924555 -1.45037035 ...  1.20136903 -0.51519834
+  -0.67318129]
+ ...
+ [ 1.65771305  0.72431668  0.46361692 ...  1.20136903 -0.51519834
+  -0.67318129]
+ [-1.31867803 -0.14554518  0.84471791 ...  1.07734986 -0.36396938
+   0.55872316]
+ [ 0.04235171  0.2859245   0.18503841 ...  1.20136903 -0.51519834
+  -0.67318129]]
+2026-05-23 09:31:05,227 - INFO - Test Accuracy : 0.7565649396735273
+2026-05-23 09:31:05,229 - INFO - Test Confusion Matrix : [[765 271]
+ [ 72 301]]
+2026-05-23 09:31:05,240 - INFO - Classification report :               precision    recall  f1-score   support
+
+           0       0.91      0.74      0.82      1036
+           1       0.53      0.81      0.64       373
+
+    accuracy                           0.76      1409
+   macro avg       0.72      0.77      0.73      1409
+weighted avg       0.81      0.76      0.77      1409
+
